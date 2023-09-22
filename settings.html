@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Settings</title>
+  <link rel="stylesheet" href="css/normlize.css" />
+  <!-- font awesome library -->
+  <link rel="stylesheet" href="css/all.min.css" />
+  <link rel="stylesheet" href="fonts/fontawesome-free-6.4.0-web.zip" />
+  <!-- main style file -->
+  <link rel="stylesheet" href="css/settings.css" />
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="page">
+    <!-- Start nav bar -->
+    <div class="common">
+      <h2>Ziad</h2>
+      <ul>
+        <a href="main.html">
+          <li><i class="fa-regular fa-chart-bar"></i>
+            <p>Dashboard</p>
+          </li>
+        </a>
+        <a href="settings.html">
+          <li><i class="fa-solid fa-gear"></i>
+            <p>Settings</p>
+          </li>
+        </a>
+        <a href="profile.html">
+          <li><i class="fa-regular fa-user"></i>
+            <p>profile</p>
+          </li>
+        </a>
+        <a href="projects.html">
+          <li><i class="fa-solid fa-diagram-project"></i>
+            <p>projects</p>
+          </li>
+        </a>
+        <a href="courses.html">
+          <li><i class="fa-solid fa-graduation-cap"></i>
+            <p>courses</p>
+          </li>
+        </a>
+        <a href="friends.html">
+          <li><i class="fa-regular fa-circle-user"></i>
+            <p>friends</p>
+          </li>
+        </a>
+        <a href="files.html">
+          <li><i class="fa-regular fa-file"></i>
+            <p>files</p>
+          </li>
+        </a>
+        <a href="plans.html">
+          <li><i class="fa-regular fa-credit-card"></i>
+            <p>plans</p>
+          </li>
+        </a>
+      </ul>
+    </div>
+    <!-- End nav bar -->
+
+    <!-- Start search bar -->
+    <div class="search">
+      <div class="dad">
+        <div class="div">
+          <form>
+            <input type="text" name="" id="" placeholder="Type A Keyword">
+          </form>
+        </div>
+        <div class="icons">
+          <i class="fa-regular fa-bell"></i>
+          <img src="./images/avatar.png" alt="">
+        </div>
+      </div>
+    </div>
+    <!-- End search bar -->
+
+    <!-- Start Dashboard -->
+    <div class="settings">
+      <div class="head">
+        <h1>settings</h1>
+      </div>
+      <div class="container">
+        <div class="box one">
+          <div class="main">
+            <div class="text">
+              <h2>Site Control</h2>
+              <p>Control The Website If There Is Maintenance</p>
+            </div>
+            <div class="dad">
+              <div class="head">
+                <div class="textt">
+                  <h3>Website Control</h3>
+                  <p>Open/Close Website And Type The Reason</p>
+                </div>
+                <form action="" class="toggle">
+                  <input type="checkbox" name="" id="checkbox" checked>
+                  <label for="checkbox"></label>
+                </form>
+              </div>
+              <div class="div">
+                <form action="">
+                  <textarea name="" id="" cols="30" rows="10" placeholder="Close Messege Content"></textarea>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="box two">
+          <div class="main">
+            <div class="text">
+              <h2>General Info</h2>
+              <p>General Information About Your Account</p>
+            </div>
+            <div class="dad">
+              <form action="">
+                <div>
+                  <label for="">First Name</label>
+                  <input type="text" name="" id="" placeholder="First Name">
+                </div>
+                <div>
+                  <label for="">Last Name</label>
+                  <input type="text" name="" id="" placeholder="Last Name">
+                </div>
+                <div>
+                  <label for="">Email</label>
+                  <div class="sup">
+                    <input type="email" name="" id="" value="o@nn.sa" readonly>
+                    <a href="#">Change</a>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="box three">
+          <div class="main">
+            <div class="text">
+              <h2>Security Info</h2>
+              <p>Security Information About Your Account</p>
+            </div>
+            <div class="dad">
+              <div class="pass">
+                <div class="textt">
+                  <h3>password</h3>
+                  <p>Last Change On 25/10/2021</p>
+                </div>
+                <a href="#">change</a>
+              </div>
+              <div class="pass2">
+                <div class="textt">
+                  <h3>Two-Factor Authentication</h3>
+                  <p>Enable/Disable The Feature</p>
+                </div>
+                <form action="" class="toggle">
+                  <input type="checkbox" name="" id="checkbox2" checked>
+                  <label for="checkbox2"></label>
+                </form>
+              </div>
+              <div class="pass3">
+                <div class="textt">
+                  <h3>Devices</h3>
+                  <p>Check The Login Devices List</p>
+                </div>
+                <a href="#">devices</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="box four">
+          <div class="main">
+            <div class="text">
+              <h2>Social Info</h2>
+              <p>Social Media Information</p>
+            </div>
+            <div class="dad">
+              <form action="">
+                <div class="tweet">
+                  <input type="text" name="" id="" placeholder="Twitter Username">
+                  <i class="fa-brands fa-twitter"></i>
+                </div>
+              </form>
+              <form action="">
+                <div class="tweet">
+                  <input type="text" name="" id="" placeholder="Facebook Username">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </div>
+              </form>
+              <form action="">
+                <div class="tweet">
+                  <input type="text" name="" id="" placeholder="Linkedin Username">
+                  <i class="fa-brands fa-linkedin"></i>
+                </div>
+              </form>
+              <form action="">
+                <div class="tweet">
+                  <input type="text" name="" id="" placeholder="Youtube Username">
+                  <i class="fa-brands fa-youtube"></i>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="box five">
+          <div class="main">
+            <div class="text">
+              <h2>Widgets Control</h2>
+              <p>Show/Hide Widgets</p>
+            </div>
+            <div class="dad">
+              <form action="">
+                <div class="div">
+                  <input type="checkbox" name="" id="Quick Draft" checked>
+                  <label for="Quick Draft">Quick Draft</label>
+                </div>
+                <div class="div">
+                  <input type="checkbox" name="" id="Yearly Targets" checked>
+                  <label for="Yearly Targets">Yearly Targets</label>
+                </div>
+                <div class="div">
+                  <input type="checkbox" name="" id="Tickets Statistics" checked>
+                  <label for="Tickets Statistics">Tickets Statistics</label>
+                </div>
+                <div class="div">
+                  <input type="checkbox" name="" id="Latest News" checked>
+                  <label for="Latest News">Latest News</label>
+                </div>
+                <div class="div">
+                  <input type="checkbox" name="" id="Latest Tasks">
+                  <label for="Latest Tasks">Latest Tasks</label>
+                </div>
+                <div class="div">
+                  <input type="checkbox" name="" id="Top Search Items" checked>
+                  <label for="Top Search Items">Top Search Items</label>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="box six">
+          <div class="main">
+            <div class="text">
+              <h2>Backup Manager</h2>
+              <p>Control Backup Time And Location</p>
+            </div>
+            <div class="dad">
+              <form action="">
+                <div class="div">
+                  <input type="radio" name="" id="daily" checked>
+                  <label for="daily">Daily</label>
+                </div>
+                <div class="div">
+                  <input type="radio" name="" id="Weekly">
+                  <label for="Weekly">Weekly</label>
+                </div>
+                <div class="div">
+                  <input type="radio" name="" id="Monthly">
+                  <label for="Monthly">Monthly</label>
+                </div>
+              </form>
+              <form >
+                <div class="ddiv">
+                  <input type="radio" name="" id="ff">
+                  <label for="ff"></label>
+                </div>
+                <div class="ddiv">
+                  <input type="radio" name="" id="ss" checked>
+                  <label for="ss"></label>
+                </div>
+                <div class="ddiv">
+                  <input type="radio" name="" id="sa">
+                  <label for="sa"></label>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+</body>
+
+
+</html>
